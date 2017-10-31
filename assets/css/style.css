@@ -1,0 +1,24 @@
+.header {
+	background-color: #592202;
+	width: 100%;
+	height: 100px;
+	float: left;
+	margin: auto;
+	color: #F2AE2D;
+	vertical-align: center;
+}
+
+.links{
+	float: right;
+}
+
+.icons {
+	float: right;
+	border: solid;
+	border-color: black;
+	background-color: white;
+	padding: 20px;
+}
+p {
+	text-align: center;
+}
