@@ -30,7 +30,7 @@ h1 {
 }
 
 .links{
-	position: absolute;
+	position: absolute;	 
 	font-size: 20px;
 	font-weight: 800;
 	text-shadow: 1px 1px black;
@@ -168,6 +168,10 @@ input{
 }
 input.tallinput{
 	height: 200px;
+	padding-bottom: 174px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border: 1px solid #ddd;
 }
 input.submit {
 	width: 100px;
@@ -183,6 +187,7 @@ input.submit {
 	padding: 20px;
 	border: solid;
 	z-index: 1;
+	margin-bottom: 300px;
 }
 h4{
 	font-family: 'Montserrat', sans-serif;
