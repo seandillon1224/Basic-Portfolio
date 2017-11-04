@@ -1,24 +1,324 @@
-.header {
-	background-color: #592202;
+body {
+	font-family: 'Montserrat', sans-serif;
+
+}
+.headerbox {
+	background-color:  #382522;
 	width: 100%;
 	height: 100px;
 	float: left;
 	margin: auto;
-	color: #F2AE2D;
-	vertical-align: center;
+	color: #FCE8CC;	
+	vertical-align: center;	
+	border-bottom-color: #AF8E6F;
+	border-bottom-style: solid;
+	border-bottom-width: 8px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 40px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	position: absolute;
+	left: 10%;
+	top: 50px;
+	padding: 5px;
+	padding-left: 7px;
+	background-color:  #AF8E6f;
+
 }
 
 .links{
-	float: right;
+	position: absolute;
+	font-size: 20px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	color: green;
+	right: 76px;
+	top: 62px;
+	height: 50px;
 }
 
 .icons {
-	float: right;
-	border: solid;
-	border-color: black;
+		position: absolute;
+		right: 20px;
+		top: 120px;
+		border: solid;
+		border-color: black;
+		background-color: white;
+		padding: 20px;
+	}
+.icons:hover{
+	text-shadow: 2px 2px black;
+}
+.info {
+	position: absolute;
+	left: 10%;
+	top: 120px;
+	height: 422px;
+	width: 900px;
 	background-color: white;
+	border-color: white;
 	padding: 20px;
+	border: solid;
 }
-p {
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 40px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+}
+p.connect {
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+	padding-bottom: 20px;
+	color: green;
+	font-size: 28px;
+	font-weight: 800;
 }
+.biography{
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 20px;
+	margin-left: 4px;
+
+}
+img.picture {
+	float: left;
+	margin-right: 12px;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
+}
+/* untouched link*/
+a:default {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+a:focus {
+	color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1A7DD7;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}	
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #382522;
+	width: 100%;
+	height: 100px;
+	vertical-align: center;
+	border-top-color: #AF8E6F;
+	border-top-style: solid;
+	border-top-width: 8px;
+	z-index: 5;
+}
+p.copyright {
+	text-align: center;
+	color: green;
+	padding-top: 33px;
+	font-style: bold;
+}
+p.copyright:hover{
+	color: #1A7DD7;
+}
+.form {
+	position: absolute;
+	left: 10%;
+	top: 120px;
+	height: 422px;
+	width: 600px;
+	background-color: white;
+	border-color: white;
+	padding: 20px;
+	border: solid;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 40px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+}
+form{
+	margin-right: 12px;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px
+	height: 422px;
+	width: 900px;
+}
+input{
+	width: 500px;
+}
+input.tallinput{
+	height: 200px;
+}
+input.submit {
+	width: 100px;
+}
+.portfoliobox {
+	position: absolute;
+	left: 10%;
+	top: 120px;
+	height: 800px;
+	width: 600px;
+	background-color: white;
+	border-color: white;
+	padding: 20px;
+	border: solid;
+	z-index: 1;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 40px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+}
+.portfolio1{
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	z-index: 1;
+}
+.portfolio2{
+	position: absolute;
+	top: 80px;
+	left: 235px;
+	z-index: 1;
+}
+.portfolio3{
+	position: absolute;
+	top: 300px;
+	left: 20px;
+	z-index: 1;
+}
+.portfolio4{
+	position: absolute;
+	top: 300px;
+	left: 235px;
+	z-index: 1;
+}
+.portfolio5{
+	position: absolute;
+	top: 520px;
+	left: 20px;
+	z-index: 1;
+}
+.portfolio1tag{
+	position: absolute;
+	left: 21px;
+	top: 154px;
+	height: 30px;
+	width: 194px;
+	padding: 0px;
+	background-color: white;
+	border-color: white;
+	border: solid;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 18px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding-top: 12px;
+}
+.portfolio2tag{
+	position: absolute;
+	left: 236px;
+	top: 154px;
+	height: 30px;
+	width: 194px;
+	padding: 0px;
+	background-color: white;
+	border-color: white;
+	border: solid;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 18px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding-top: 12px;
+}
+.portfolio3tag{
+	position: absolute;
+	left: 21px;
+	top: 375px;
+	height: 30px;
+	width: 194px;
+	padding: 0px;
+	background-color: white;
+	border-color: white;
+	border: solid;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 18px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding-top: 12px;
+}
+.portfolio4tag{
+	position: absolute;
+	left: 236px;
+	top: 375px;
+	height: 30px;
+	width: 194px;
+	padding: 0px;
+	background-color: white;
+	border-color: white;
+	border: solid;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 18px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.portfolio5tag{
+	position: absolute;
+	left: 21px;
+	top: 596px;
+	height: 30px;
+	width: 194px;
+	padding: 0px;
+	background-color: white;
+	border-color: white;
+	border: solid;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	color: green;
+	font-size: 18px;
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+
+
+
